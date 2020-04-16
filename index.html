@@ -1,0 +1,125 @@
+<!-- the URL for this project is https://github.com/TadiyosGirma/WapFinalProject.git-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title>Home</title>
+    <link rel="stylesheet" href="./css/home.css" type="text/css">
+
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"
+        integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous"> -->
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"
+        integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"
+        integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <ul class="nav nav-pills nav-fill bg-dark">
+
+            <img id="logo" src="./images/Logo.jpg" alt="Logo Image">
+            <div>
+                <span class="bannerTxtBig">LET'S EXPLORE </span>
+                <span class="bannerTxtSmall">YOUR PORTAL TO THE WORLD</span>
+            </div>
+            <li>
+                <a id="bannerSeparator">|</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="./index.html">HOME</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./html/about.html">ABOUT</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./html/tours.html">TOURS</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./html/news.html">NEWS</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./html/contact.html">CONTACT</a>
+            </li>
+        </ul>
+    </header>
+
+    <main>
+        <!-- this is the Carousel that displays diffrent images in slide-->
+        <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+            </ol>
+            <div id="carouselContainer" class="carousel-inner active">
+                <!-- the carousel itms will be inserted here using AJAX -->
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+
+        <!-- this is for the welcome text below the carousel-->
+        <div class="jumbotron jumbotron-black">
+            <div class="container">
+                <h1 id="welcomeSign1" class="display-4">Welcome to Our Site</h1>
+                <p id="welcomeSign2" class="lead">The leading travel guide in the world</p>
+                <p id="welcomeSign3" class="lead">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent
+                    bulum molestie lacus. Aenean
+                    nonummy hendrerit mauris. Phasellus porta. Fusce suscipit varius mi. Lorem ipsum dolor sit amet,
+                    consectetuer adipiscing elit. Praesent</p>
+            </div>
+        </div>
+
+        <!-- this is for the images to be displayed below the welcome text -->
+        <div id="bottomImages">
+            <!-- the bottom images will be inserted here using AJAX-->
+        </div>
+
+        <hr>
+
+        <div class="jumbotron jumbotron-black">
+            <div class="container">
+                <h1 id="userFeedBack1" class="display-4">User Feedback</h1>
+                <p id="userFeedBack2" class="lead">Here is what our customers have to say ablut us</p>
+            </div>
+        </div>
+
+        <hr>
+
+        <!-- this is for the customer feedbacks-->
+        <div id="customerFeedback">
+            <!-- the user feedbacks will be inserted here using AJAX-->
+        </div>
+
+    </main>
+
+    <footer>
+        <br><br>
+        <hr>
+        <hr>
+        <div class="footerDiv"> <a href=""> Privacy & Security</a> | <a href="">Terms of Use</a> | <a
+                href="">Trademarks</a> | <a href="">Legal</a> </div>
+        <div class="footerDiv"> Copyright © 2020 Tadiyos Girma, Kaleb Ero, Girma Teklemariam, Mekuanenet Anteneh:
+            Developed with Visual Studio Code </div>
+        <br><br>
+    </footer>
+    <script src="js/index.js"></script>
+    <script src="js/indexBottomImages.js"></script>
+    <script src="js/userReviews.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,47 @@
+#aboutSign1{
+    font-size: 6em;
+    font-weight: bolder;
+    color: darkorange;
+    text-align: center;
+}
+
+#aboutSign2{
+    font-size: 3em;
+    color: chocolate;
+    text-align: center;
+}
+
+#aboutSign3{
+    font-size: 2em;
+    color: darkcyan;
+    text-align: center;
+}
+
+#newYork{
+    width: 100%;
+    /* border-radius: 10pt; */
+}
+
+#aboutUs{
+    font-size: 1.2em;
+    color: darkcyan;
+    text-align: center;
+}
+
+#card1{
+    background-color: cadetblue;
+    padding: 50pt;
+}
+
+#card2{
+    background-color: darkorange;
+    padding: 50pt;
+}
+
+.card-title{
+    text-decoration: underline;
+}
+
+.card{
+    border: white;
+}

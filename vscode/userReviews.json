@@ -1,0 +1,21 @@
+[
+    {
+        "imgpath": "./images/user1.jpg",
+        "alt": "Image of Dallol - Ethiopia",
+        "username": "Mr. Y",
+        "usercomment": "Some quick example text to build on the card title and make up the bulk of the card's content"
+    },
+    {
+        "imgpath": "./images/user2.jpg",
+        "alt": "Image of Dallol - Ethiopia",
+        "username": "Mrs. X",
+        "usercomment": "Some quick example text to build on the card title and make up the bulk of the card's content"
+
+    },
+    {
+        "imgpath": "./images/user3.jpg",
+        "alt": "Image of Dallol - Ethiopia",
+        "username": "Mr. Z",
+        "usercomment": "Some quick example text to build on the card title and make up the bulk of the card's content"
+    }
+]

@@ -1,0 +1,82 @@
+.nav-link{
+    color: darkorange;
+    line-height: 8;    
+}
+
+.bannerTxtBig{
+    color: green;
+    line-height: 3;
+    vertical-align: bottom;
+    font-weight: bold;
+    font-size: 2em; 
+}
+
+.bannerTxtSmall{
+    color: darkorange;
+    vertical-align: bottom;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+#bannerSeparator{
+    color: blue; 
+    font-size: 6em; 
+ 
+}
+
+#welcomeSign1{
+    font-size: 6em;
+    font-weight: bolder;
+    color: cadetblue;
+    text-align: center;
+}
+
+#welcomeSign2{
+    font-size: 3em;
+    /* font-weight: bolder; */
+    color: chocolate;
+    text-align: center;
+}
+
+#welcomeSign3{
+    font-size: 2em;
+    /* font-weight: bold;    */
+    text-align: center;
+}
+
+.card{
+    display: inline;
+    float: left;
+    padding: 5pt;
+    margin: 15pt;
+    
+}
+
+#customerFeedback{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+footer{
+    clear: both;
+    text-align: center;
+}
+
+main{
+    padding: 5pt;
+}
+
+#userFeedBack1{
+    font-size: 3em;
+    font-weight: bolder;
+    color: cadetblue;
+    text-align: center;
+}
+
+#userFeedBack2{
+    font-size: 2em;
+    /* font-weight: bolder; */
+    color: chocolate;
+    text-align: center;
+}

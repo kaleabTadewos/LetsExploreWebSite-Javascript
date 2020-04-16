@@ -1,0 +1,26 @@
+#newsSign1{
+    font-size: 6em;
+    font-weight: bolder;
+    color: darkorange;
+    text-align: center;
+}
+
+#newsSign2{
+    font-size: 3em;
+    color: chocolate;
+    text-align: center;
+}
+
+#newsSign3{
+    font-size: 2em;
+    color: darkcyan;
+    text-align: center;
+}
+
+.worldPictures{
+    padding: 30pt;
+}
+
+#mainText{
+    text-align: justify;
+}

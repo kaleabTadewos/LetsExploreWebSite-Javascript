@@ -1,0 +1,23 @@
+[
+    {
+        "place": "Dallol - Ethiopia",
+        "description": "Dallol currently holds the official record for record high average temperature for an inhabited location on Earth , and an average annual temperature of 35°C (95°F) was recorded between 1960 and 1966.",
+        "imagepath": "images/dallol.jpg",
+        "status": "active",
+        "alt": "Image of Dallol - Ethiopia"
+    },
+    {
+        "place": "Statue of Jesus - Brazil",
+        "description": "Christ the Redeemer is an Art Deco statue of Jesus Christ in Rio de Janeiro, Brazil, created by French sculptor Paul Landowski and built by Brazilian engineer Heitor da Silva Costa, in collaboration with French engineer Albert Caquot",
+        "imagepath": "images/jesus-brazil.jpg",
+        "status": "",
+        "alt": "Image of Statue of Jesus - Brazil"
+    },
+    {
+        "place": "Venice - Italy",
+        "description": "Venice, the capital of northern Italy’s Veneto region, is built on more than 100 small islands in a lagoon in the Adriatic Sea. It has no roads, just canals – including the Grand Canal thoroughfare – lined with Renaissance and Gothic palaces",
+        "imagepath": "images/venice-italy.jpg",
+        "status": "",
+        "alt": "Image of Venice - Italy"
+    }
+]

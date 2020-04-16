@@ -1,0 +1,11 @@
+[
+    {
+        "tourLocationID": "",
+        "name": "Lalibela",
+        "history": "In a mountainous region in the heart of Ethiopia, some 645 km from Addis Ababa, eleven medieval monolithic churches were carved out of rock",
+        "demography": "Ethiopia, in the Horn of Africa, is a rugged, landlocked country split by the Great Rift Valley. With archaeological finds dating back more than 3 million years, it’s a place of ancient culture. Among its important sites are Lalibela with its rock-cut Christian churches from the 12th–13th centuries. Aksum is the ruins of an ancient city with obelisks, tombs, castles and Our Lady Mary of Zion church.",
+        "transportation": "Ethiopia has a high rate of traffic fatalities, and driving is not for the inexperienced or nervous driver. Excessive speed, unpredictable local driving habits, pedestrians and livestock make driving in Ethiopia dangerous. There is also very little concern for the safety standards of vehicles in the country, which leads to further hazards on Ethiopian roads. Ethiopian roads are poorly maintained.",
+        "imgPath": "../images/tourSite.jpg",
+        "createdDate": "2020-04-15"
+    }
+]

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title>Home</title>
+    <link rel="stylesheet" href="../css/home.css" type="text/css">
+    <link rel="stylesheet" href="../css/contact.css" type="text/css">
+</head>
+
+<body>
+    <header>
+        <ul class="nav nav-pills nav-fill bg-dark">
+
+            <img id="logo" src="../images/Logo.jpg" alt="Logo Image">
+            <div>
+                <span class="bannerTxtBig">LET'S EXPLORE </span>
+                <span class="bannerTxtSmall">YOUR PORTAL TO THE WORLD</span>
+            </div>
+            <li>
+                <a id="bannerSeparator">|</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="../index.html">HOME</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="../html/about.html">ABOUT</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="../html/tours.html">TOURS</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="../html/news.html">NEWS</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="#">CONTACT</a>
+            </li>
+        </ul>
+    </header>
+    <main>
+        <!-- this is the top of the page-->
+        <div class="jumbotron jumbotron-black">
+            <div class="container">
+                <h1 id="contactSign1" class="display-4">How to find us</h1>
+                <!-- <p id="contactSign2" class="lead">What is new?</p> -->
+                <p id="contactSign3" class="lead">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent
+                    bulum molestie lacus. Aenean
+                    nonummy hendrerit mauris. Phasellus porta. Fusce suscipit varius mi. Lorem ipsum dolor sit amet,
+                    consectetuer adipiscing elit. Praesent</p>
+            </div>
+        </div>
+
+        <div class="jumbotron jumbotron-black">
+            <div class="container">
+                <h1 id="userFeedBack1" class="display-4">Contact us</h1>
+            </div>
+        </div>
+
+        <!--Google map-->
+        <section class="section">
+            <div class="card">
+                <div class="card-body">
+                    <div id="map" class="z-depth-1-half map-container">
+                        <iframe id="mapFeame" src="https://maps.google.com/maps?q=fairfield&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                            allowfullscreen></iframe>
+                    </div>
+                    <br><br>
+
+                    <div class="row">
+                        <div class="col-md-6 mb-4">
+                            <form>
+                                <div class="md-form">
+                                    <input type="text" id="contact-name" class="form-control">
+                                    <label for="contact-name" class="">Your name</label>
+                                </div>
+
+                                <div class="md-form">
+                                    <input type="text" id="contact-email" class="form-control">
+                                    <label for="contact-email" class="">Your email</label>
+                                </div>
+
+                                <div class="md-form">
+                                    <input type="text" id="contact-Subject" class="form-control">
+                                    <label for="contact-Subject" class="">Subject</label>
+                                </div>
+                            </form>
+                        </div>
+
+                        <div class="col-md-6 mb-4">
+                            <div class="md-form primary-textarea">
+                                <textarea id="contact-message" class="md-textarea form-control mb-0" rows="5"
+                                    style="padding-bottom: 1.2rem;"></textarea>
+                                <label for="contact-message">Your message</label>
+                            </div>
+                        </div>
+
+                        <div class="col-md-12">
+                            <div class="text-center">
+                                <a class="btn btn-mdb-color btn-block">Send Message</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <br><br>
+        <hr>
+        <hr>
+        <div class="footerDiv"> <a href=""> Privacy & Security</a> | <a href="">Terms of Use</a> | <a
+                href="">Trademarks</a> | <a href="">Legal</a> </div>
+        <div class="footerDiv"> Copyright © 2020 Tadiyos Girma, Kaleb Ero, Girma Teklemariam, Mekuanenet Anteneh:
+            Developed with Visual Studio Code </div>
+        <br><br>
+    </footer>
+</body>
+
+</html>

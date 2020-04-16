@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title>Home</title>
+    <link rel="stylesheet" href="../css/home.css" type="text/css">
+    <link rel="stylesheet" href="../css/news.css" type="text/css">
+</head>
+
+<body>
+    <header>
+        <ul class="nav nav-pills nav-fill bg-dark">
+
+            <img id="logo" src="../images/Logo.jpg" alt="Logo Image">
+            <div>
+                <span class="bannerTxtBig">LET'S EXPLORE </span>
+                <span class="bannerTxtSmall">YOUR PORTAL TO THE WORLD</span>
+            </div>
+            <li>
+                <a id="bannerSeparator">|</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="../index.html">HOME</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="../html/about.html">ABOUT</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="../html/tours.html">TOURS</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="#">NEWS</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="../html/contact.html">CONTACT</a>
+            </li>
+        </ul>
+    </header>
+
+    <main>
+        <!-- this is the top of the page-->
+        <div class="jumbotron jumbotron-black">
+            <div class="container">
+                <h1 id="newsSign1" class="display-4">Recent events</h1>
+                <p id="newsSign2" class="lead">What is new?</p>
+                <p id="newsSign3" class="lead">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent
+                    bulum molestie lacus. Aenean
+                    nonummy hendrerit mauris. Phasellus porta. Fusce suscipit varius mi. Lorem ipsum dolor sit amet,
+                    consectetuer adipiscing elit. Praesent</p>
+            </div>
+        </div>
+        <div>
+            <img class="worldPictures" src="../images/world1.jpg" class="img-fluid" alt="Responsive image">
+            <img class="worldPictures" src="../images/world4.jpg" class="img-fluid" alt="Responsive image">
+            <img class="worldPictures" src="../images/world2.jpg" class="img-fluid" alt="Responsive image">
+            <img class="worldPictures" src="../images/world3.jpg" class="img-fluid" alt="Responsive image">
+        </div>
+        <br><br>
+
+        <div id="newsList">
+             <!-- the news will be inserted here using AJAX-->
+        </div>
+    </main>
+
+    <footer>
+        <br><br>
+        <hr>
+        <hr>
+        <div class="footerDiv"> <a href=""> Privacy & Security</a> | <a href="">Terms of Use</a> | <a
+                href="">Trademarks</a> | <a href="">Legal</a> </div>
+        <div class="footerDiv"> Copyright © 2020 Tadiyos Girma, Kaleb Ero, Girma Teklemariam, Mekuanenet Anteneh:
+            Developed with Visual Studio Code </div>
+        <br><br>
+    </footer>
+
+    <script src="../js/news.js"></script>
+</body>
+
+</html>
